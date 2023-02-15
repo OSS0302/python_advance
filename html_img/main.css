@@ -1,0 +1,11 @@
+/* https://heropy. blog/css/ images/ Logo. png */
+.container .item{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    background-image:url("https://heropy.blog/css/images/Logo.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
