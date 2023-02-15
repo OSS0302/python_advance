@@ -1,15 +1,17 @@
 .container{
-    background-color: orange;
-    display: flex;
-    justify-content: center;
+
 }
-.container .item{
-    width: 100px;
+.container .item {
+    width: 200px;
     height: 100px;
-    background-color: royalblue;
-    border: 2px solid black;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: tomato;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 4px dotted blue; box-sizing: border-box;
+}
+.container .item:nth-child(2) {
+    box-shadow: 10px 20px 30px Orgba(0,0, 0, .3) ;
+}
+.container .item:nth-child(3){
+    opacity: 0.5;
 }
