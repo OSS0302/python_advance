@@ -1,6 +1,8 @@
-# 
+import sys as s
 while True:
-    num1,num2 = map(int,input().split())
-    if num1 == 0 and num2 == 0:
+    try:
+        num1,num2 = map(int, s.stdin.readline().split())        
+        print(num1+num2)
+    except:
         break
-    print(num1+num2)
+   
