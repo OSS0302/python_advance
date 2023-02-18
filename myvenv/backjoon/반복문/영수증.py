@@ -15,17 +15,17 @@ x는영수증의 총금액
 구매한 물건의 종류의 수 N이다.
 """
 
-sum=0
-total = int(input())
-goods_count=int(input())
-for i in range(goods_count):
-    x,n =map(int,input().split())
-    sum += x*n
-print(sum)
-if total == sum:
-    print("yes")
-else:
-    print("no")
+# sum=0
+# total = int(input())
+# goods_count=int(input())
+# for i in range(goods_count):
+#     x,n =map(int,input().split())
+#     sum += x*n
+# print(sum)
+# if total == sum:
+#     print("yes")
+# else:
+#     print("no")
 
 
 
